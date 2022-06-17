@@ -1,7 +1,7 @@
 from PIL import Image
 import os
 
-downloadsFolder = "C:/Users/..."
+downloadsFolder = "C:/Users/..."  #Insert Path Folder
 
 if __name__ == "__main__":
     for filename in os.listdir(downloadsFolder):
